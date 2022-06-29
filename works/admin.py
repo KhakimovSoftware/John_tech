@@ -10,5 +10,5 @@ class WorksCategoryModelAdmin(admin.ModelAdmin):
 @admin.register(WorksModel)
 class WorksModelAdmin(admin.ModelAdmin):
     list_display = ['id', 'title', 'created_at']
-    list_display_links = ['id', 'title', 'created_at']
+    list_display_links = ['id', 'title', 'created_at'] 
     search_fields = ['title']
